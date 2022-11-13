@@ -1,0 +1,5 @@
+<resources>
+    <string name="closedrawer">Close Drawer</string>
+    <string name="opendrawer">Open Drawer</string>
+    <string name="app_name">ThuVienSach1</string>
+</resources>

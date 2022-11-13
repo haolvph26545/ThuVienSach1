@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+
+    android:layout_margin="10dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="ĐĂNG KÝ TÀI KHOẢN"
+            android:textSize="40dp"
+            android:id="@+id/item_tvtile"
+            />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fpt"/>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ten tk"
+            android:textSize="10dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/add_til_usernamedk"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/item_txtnameuserdk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên tài khoản" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ho ten"
+            android:textSize="10dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/add_til_namedk"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:padding="10dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/item_txtnamedk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Họ tên" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mat khau"
+            android:textSize="10dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:textColorHint="#ffffff"
+            android:id="@+id/add_til_passdk"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/item_txtpassdk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Đăng Ký"
+                android:id="@+id/dialog_add_adddk"
+                android:backgroundTint="#ffde03"
+                android:textColor="#000000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Huỷ"
+                android:id="@+id/dialog_add_canceldk"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#B00020"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

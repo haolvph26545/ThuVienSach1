@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_qlphieuthu"
+            android:icon="@drawable/home"
+            android:title="Quản lý phiếu mượn" />
+        <item
+            android:id="@+id/nav_qlloaisach"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Quản lý loại sách" />
+        <item
+            android:id="@+id/nav_qlsach"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Quản lý sách" />
+        <item
+            android:id="@+id/nav_qlthanhvien"
+            android:icon="@drawable/icon"
+
+        android:title="Quản lý thành viên" />
+    <item android:title="Thống kê"
+          android:id="@+id/nav_thongke">
+        <menu>
+            <item
+                android:id="@+id/nav_top"
+                android:icon="@android:drawable/stat_sys_upload"
+                android:title="10 Sách mượn nhiều nhất"
+                />
+            <item
+                android:id="@+id/nav_doanhthu"
+                android:icon="@android:drawable/btn_star"
+                android:title="Doanh Thu"
+                />
+        </menu>
+    </item>
+    <item android:title="Người Dùng">
+        <menu>
+            <item
+                android:id="@+id/nav_them"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="Thêm người dùng"
+                android:visible="false"
+                />
+            <item
+                android:id="@+id/nav_matkhau"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Đổi mật khẩu"
+                />
+            <item
+                android:id="@+id/nav_dangxuat"
+                android:icon="?android:attr/alertDialogIcon"
+                android:title="Đăng xuất"
+                />
+        </menu>
+    </item>
+
+    </group>
+
+</menu>
